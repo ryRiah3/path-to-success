@@ -243,3 +243,29 @@ table {
         font-weight: 700;
         padding: 0 15px 0px 15px;
     }
+
+    table {
+        width: 55%;
+        margin: 10px auto 10px auto;
+        border: 2px solid var(--secondary-color);
+        background: var(--primary-color-light);
+    }
+
+    th {
+        background-color: var(--secondary-color);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: var(--font-family-primary);
+        padding: 15px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    td {
+        font-family: var(--font-family-primary);
+        font-weight: 500;
+        border: 2px solid var(--secondary-color);
+        font-size:small;
+        text-align: left;
+        padding: 15px 10px 15px 20px;
+    }
