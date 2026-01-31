@@ -102,12 +102,17 @@ nav h2 {
     font-family: var(--font-family-primary);
     font-weight: bold;
     font-style: italic;
-    font-size: 2em;
+    text-transform: uppercase;
 }
 nav a {
     font-family: var(--font-family-primary);
     color: var(--primary-color);
     text-decoration: none;
+    display: block;
+    background: #ffffff;
+    padding: 10px;
+    border: 10px solid var(--secondary-color);
+    font-weight: bold;
 }
 
 h2 {
