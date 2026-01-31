@@ -88,6 +88,21 @@ h1{
     color: #ffffff; 
 }
 
+h2 {
+    font-size: 2em;
+    font-family: var(--font-family-secondary);
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: var(--font-family-primary);
+}
+
+h4 {
+    font-size: 1.15em;
+    font-family: var(--font-family-primary);
+}
+
 header p{
     font-family: var(--font-family-primary);
     color: #ffffff;
@@ -115,17 +130,21 @@ nav a {
     font-weight: bold;
 }
 
-h2 {
-    font-size: 2em;
-    font-family: var(--font-family-secondary);
+main {
+    background-color: var(--primary-color);  
 }
 
-h3 {
-    font-size: 1.5em;
-    font-family: var(--font-family-primary);
+section#our-services h2 {
+    color: #ffffff;
 }
 
-h4 {
-    font-size: 1.15em;
-    font-family: var(--font-family-primary);
+main h3 {
+    color: var(--secondary-color);
+}
+
+section#our-services section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
 }
