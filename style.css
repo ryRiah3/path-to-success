@@ -74,7 +74,7 @@ body {
 }
 
 header, nav, main, footer {
-    width: 450px;
+    width: 440px;
 }
 
 header {
@@ -85,7 +85,10 @@ header {
 h1{
     font-family: var(--font-family-secondary);
     font-size: 3em;
+    font-weight: bold;
     color: #ffffff; 
+    padding: 25px 20px 5px 20px;
+    margin: 7px;
 }
 
 h2 {
@@ -106,6 +109,8 @@ h4 {
 header p{
     font-family: var(--font-family-primary);
     color: #ffffff;
+    padding: 0 0px 45px 0; 
+    font-style: italic;
 }
 
 nav {
@@ -115,18 +120,32 @@ nav {
 
 nav h2 {
     font-family: var(--font-family-primary);
+    font-size: 1.5em;
     font-weight: bold;
     font-style: italic;
     text-transform: uppercase;
+    padding: 15px 0 0 0;
+    margin-bottom: 10px;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0 0 25px 0;
+}
+
+nav ul li {
+    padding: 0 20px 0 20px;
+    margin: 0 5px 0px 5px;
+}
+
 nav a {
     font-family: var(--font-family-primary);
     color: var(--primary-color);
     text-decoration: none;
     display: block;
     background: #ffffff;
-    padding: 10px;
-    border: 10px solid var(--secondary-color);
+    border: 5px solid var(--secondary-color);
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -148,3 +167,4 @@ section#our-services section {
     border-radius: 30px;
     margin: 20px;
 }
+
