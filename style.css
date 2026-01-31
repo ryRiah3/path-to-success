@@ -88,3 +88,28 @@ header p{
     font-family: var(--font-family-primary);
     color: #ffffff;
 }
+
+nav {
+    background-color: #E9BB57;
+    text-align: center;
+}
+
+nav h2 {
+    font-family: var(--font-family-primary);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: var(--font-family-secondary);
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: var(--font-family-primary);
+}
+
+h4 {
+    font-size: 1.15em;
+    font-family: var(--font-family-primary);
+}
