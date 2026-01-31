@@ -232,3 +232,14 @@ table {
     section#why-choose-us li:nth-child(4) {
         background-color: var(--primary-color-light);
     }
+
+    section#prices h2 {
+        color: var(--primary-color-light);
+        padding: 15px 15px 5px 15px;
+    }
+
+    section#prices h3 {
+        color: var(--secondary-color);
+        font-weight: 700;
+        padding: 0 15px 0px 15px;
+    }
