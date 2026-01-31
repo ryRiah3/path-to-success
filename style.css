@@ -206,16 +206,29 @@ table {
         list-style: none;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        padding: 15px 25px 25px 25px;
+        gap: 5px;
+        padding: 10px;
     }
 
     section#why-choose-us ul li {
         font-family: var(--font-family-primary);
         border-radius: 10px;
-        padding: 10px;
-        margin: 5px;
+        padding: 40px 20px 40px 20px;
+        margin: 0 5px 10px 5px;
         text-align: center;
-        font-weight: 600;
+        font-weight: 800;
         background-color: var(--primary-color);
+    }
+
+    section#why-choose-us li:nth-child(1) {
+        background-color: #4CA7C0;
+    }
+    section#why-choose-us li:nth-child(2) {
+        background-color: var(--background-color);
+    }
+    section#why-choose-us li:nth-child(3) {
+        background-color: var(--secondary-color);
+    }
+    section#why-choose-us li:nth-child(4) {
+        background-color: var(--primary-color-light);
     }
