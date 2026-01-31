@@ -56,7 +56,7 @@ table {
 :root {
     --primary-color: #484FB7;
     --secondary-color: #E9BB57;
-    --background-color: #4CA7C0;
+    --background-color: #6b8be0;
     --font-family-primary: Inter;
     --font-family-secondary: Kavoon;
     --max-width: 450px;
@@ -64,4 +64,27 @@ table {
 
 /* GLOBAL STYLES (mobile first/small) */
 @media screen and (max-width: 450px) {
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--font-family-secondary);
+    font-size: 3em;
+    color: #ffffff; 
+}
+
+header p{
+    font-family: var(--font-family-primary);
+    color: #ffffff;
 }
