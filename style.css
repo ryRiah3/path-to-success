@@ -65,13 +65,6 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-/* (mobile first) */
-@media (max-width: 450px) {
-    body {
-        max-width: 450px;
-    }
-}
-/*(small) */
 body {
     max-width:450px;
     margin-left: auto;
